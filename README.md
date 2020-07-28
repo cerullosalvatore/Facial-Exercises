@@ -160,5 +160,5 @@ Nel caso in esame i _Dati_ sono un insieme di distanze da **(68x2)** elementi me
 
 In questo caso quindi la metrica appresa non è una distanza tra due singoli frame.
 Questo mi permetterà di andare ad individuare la metrica tra una coppia di frame. 
-
+ 
 

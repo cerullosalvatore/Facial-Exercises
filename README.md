@@ -67,6 +67,13 @@ Al termine dell'esecuzione dell'esercizio verrà presentata una nuova finestra c
 
 ![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/4.png)
 
+##### Correzione
+Attraverso il pulsante CORREGGI si accede ad una nuova finestra in cui ritroviamo 4 elementi fodamentali:
+1. Il frame che indica la posizione di riposo assunta dall'utente durante l'esecuzione dell'esercizio;
+2. Il frame che indica la posizione finale assunta dall'utente durante l'esecuzione dell'esercizio;
+3. Pulsante che permette il salvataggio del video come _VIDEO DI COMPARAZIONE_;
+4. Pulsante che permette il salvatoaggio del video come _VIDEO DI TRAINING_.
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/6.png)
 ### Approfondimenti
 Diamo uno sguardo più da vicino ad alcuni aspetti fondamentali dell'applicazione.
 

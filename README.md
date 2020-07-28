@@ -25,11 +25,11 @@ Quando eseguita l'applicazione si presenta all'utente con un'interfaccia molto s
 5. **Video esempio**: breve video dimostrativo su come dovrebbe essere svolto l'esercizio selezionato;
 6. **Esecuzione esercizio**: permette di eseguire l'esercizio selezionato.
 
-![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/0.png)
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises/blob/master/Immagini/0.png)
 
 #### Impostazioni esercizio
 
-![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/1.png)
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises/blob/master/Immagini/1.png)
 
 Attraverso il pulsante *3* dell'interfaccia principale è possibile accedere al menu delle impostazioni. Andiamo a vedere brevemente le funzioni presentate all'utente:
 ##### 1. Nuovo Video
@@ -39,7 +39,7 @@ Dopo alcuni secondi dopo la pressione di questo bottone verrà attivata la telec
 ##### 2. Rimuovi Video
 Mostra all'utente una finestra con la quale è possibile selezionare un video dal dataset e rimuoverlo definitivamente.
 
-![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/2.png)
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises/blob/master/Immagini/2.png)
 
 ##### 3. Addestra
 Attraverso la pressione di questo pulsante verrà addestrato il metric learner. 
@@ -48,7 +48,7 @@ Attraverso la pressione di questo pulsante verrà addestrato il metric learner.
 ##### 4. Modifica descrizione
 Permette all'utente di modificare la descrizione dell'esercizio.
 
-![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/5.png)
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises/blob/master/Immagini/5.png)
 
 #### Esecuzione Esercizio
 Dopo aver premuto il pulsante, come per la funzione _Nuovo Video_ verrà attivata la videocamera e verrà aperta una nuova finestra in cui ritroviamo 4 elementi fondamentali:
@@ -56,7 +56,7 @@ Dopo aver premuto il pulsante, come per la funzione _Nuovo Video_ verrà attivat
 2. **Video originale con face detection e landmark facciali**;
 3. **Landmark facciali invarianti a traslazione, rotazione e scala**;
 4. **Progressbar che indica lo stato di esecuzione dell'esercizio**.
-![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/3.png)
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises/blob/master/Immagini/3.png)
 
 ##### Risultati
 Al termine dell'esecuzione dell'esercizio verrà presentata una nuova finestra che presenterà all'utente alcune informazioni sull'esito dell'esercizio:
@@ -65,7 +65,7 @@ Al termine dell'esecuzione dell'esercizio verrà presentata una nuova finestra c
 3. Match più vicino con i video presenti nel dataset di video corretti e distanza calcolata;
 4. Il pulsante correggi permetterà di effettuare un'operazione di correzione.
 
-![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/4.png)
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises/blob/master/Immagini/4.png)
 
 ##### Correzione
 Attraverso il pulsante CORREGGI si accede ad una nuova finestra in cui ritroviamo 4 elementi fodamentali:
@@ -73,7 +73,7 @@ Attraverso il pulsante CORREGGI si accede ad una nuova finestra in cui ritroviam
 2. Il frame che indica la posizione finale assunta dall'utente durante l'esecuzione dell'esercizio;
 3. Pulsante che permette il salvataggio del video come _VIDEO DI COMPARAZIONE_;
 4. Pulsante che permette il salvatoaggio del video come _VIDEO DI TRAINING_.
-![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises-Detector/blob/master/Immagini/6.png)
+![Image GUI](https://github.com/cerullosalvatore/Facial-Exercises/blob/master/Immagini/6.png)
 ### Approfondimenti
 Diamo uno sguardo più da vicino ad alcuni aspetti fondamentali dell'applicazione.
 

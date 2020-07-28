@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>312</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Impostazioni Esercizio</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Roboto Black</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>IMPOSTAZIONI ESERCIZIO</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="font">
+         <font>
+          <family>Roboto Thin</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="title">
+         <string>Gestione Video</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="font">
+            <font>
+             <family>Roboto</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>NUOVO VIDEO [CORRETTO]</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="font">
+            <font>
+             <family>Roboto</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>NUOVO VIDEO [ERRATO]</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="font">
+            <font>
+             <family>Roboto</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>RIMUOVI VIDEO</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="font">
+         <font>
+          <family>Roboto Thin</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="title">
+         <string>Gestione Metric Learner</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="font">
+            <font>
+             <family>Roboto</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ADDESTRA</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="font">
+         <font>
+          <family>Roboto Thin</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="title">
+         <string>Gestione Informazioni Esercizio</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="font">
+            <font>
+             <family>Roboto</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>MODIFICA DESCRIZIONE</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="font">
+            <font>
+             <family>Roboto</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ANNULLA</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

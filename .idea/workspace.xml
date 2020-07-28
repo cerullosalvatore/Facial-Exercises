@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="120f8283-8f5f-4a64-afc8-2b8c59ca5a1b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1fAbBFn89e7HDM752LiXNT8bG1r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Controllers" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\39329\Desktop\Facial-Exercises\Controllers" />
+      <recent name="C:\Users\39329\Desktop\Image and video Analysis\Facial-Exercises\Model" />
+      <recent name="C:\Users\39329\Desktop\Image and video Analysis\Facial-Exercises" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\39329\Desktop\Image and video Analysis\Facial-Exercises\Controllers" />
+      <recent name="C:\Users\39329\Desktop\Image and video Analysis\Facial-Exercises\Model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Facial-Exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="120f8283-8f5f-4a64-afc8-2b8c59ca5a1b" name="Default Changelist" comment="" />
+      <created>1595663706939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595663706939</updated>
+      <workItem from="1595663708131" duration="2990000" />
+      <workItem from="1595670612288" duration="713000" />
+      <workItem from="1595671388081" duration="4938000" />
+      <workItem from="1595687219891" duration="7800000" />
+      <workItem from="1595747097965" duration="6907000" />
+      <workItem from="1595755535150" duration="1055000" />
+      <workItem from="1595768873747" duration="1697000" />
+      <workItem from="1595832300667" duration="2436000" />
+      <workItem from="1595840985802" duration="7839000" />
+      <workItem from="1595860185492" duration="5168000" />
+      <workItem from="1595874167317" duration="45000" />
+      <workItem from="1595874701243" duration="242000" />
+      <workItem from="1595922154183" duration="3296000" />
+      <workItem from="1595928298243" duration="64000" />
+      <workItem from="1595928541397" duration="543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="729" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595843081299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="729" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595843081299" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595670719339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595670719339" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1595666784853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595666784853" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1595929084080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595929084080" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1595929084080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595929084080" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1595929084080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595929084080" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1595929084080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595929084080" />
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1595671325340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595671325340" />
+    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1595671325340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595671325340" />
+    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1595671325340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595671325340" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1595671325340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595671325340" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595929002835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595929002835" />
+    <state x="622" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1595922472061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="622" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.26.1680.1010/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595922472061" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Facial_Exercises$Main.coverage" NAME="Main Coverage Results" MODIFIED="1595929004324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

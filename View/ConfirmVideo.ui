@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1358</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_5">
+     <property name="font">
+      <font>
+       <family>Roboto</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Vuoi salvare il video come &quot;Video di Training&quot;?</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_6">
+     <property name="font">
+      <font>
+       <family>Roboto Light</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Salvando il video come VIDEO DI TRAINING, la metrica verrà appresa considerando i due frame seguenti. Questi due frame dovranno quindi corrispondere rispettivamente alla posizione iniziale e quella finale desiderata. Salvando il video come VIDEO DI COMPARAZIONE la metrica non verrà appresa su quest'ultimo ma verrà considerato solo per comparare e classificare un video.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="2" column="0">
+       <widget class="QWidget" name="widget_4" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>640</width>
+             <height>480</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QWidget" name="widget_3" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <family>Roboto</family>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>FRAME DI PARTENZA</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QWidget" name="widget_5" native="true">
+        <property name="font">
+         <font>
+          <family>Roboto</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>FRAME FINALE</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QWidget" name="widget_6" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>640</width>
+             <height>480</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <family>Roboto</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>SALVA COME VIDEO DI COMPARAZIONE</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <family>Roboto</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>SALVA COME VIDEO DI TRAINING</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

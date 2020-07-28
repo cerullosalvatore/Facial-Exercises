@@ -71,3 +71,4 @@ class Ui(QtWidgets.QMainWindow):
         self.result = Ui_Results(self._currentExercise.execute_exercise(), self.comboBox.currentText(), self.comboBox_2.currentText())
 
 
+

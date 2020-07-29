@@ -2,6 +2,7 @@ import os
 
 from PyQt5 import QtWidgets, uic
 
+from Controllers.CameraError import Ui_CameraError
 from Controllers.VideoTraining import Ui_VideoTraining
 from Model.ExerciseManager import ExerciseManager
 from Model.MetricLearner import MetricLearner
@@ -37,8 +38,12 @@ class Ui_settingss(QtWidgets.QDialog):
 
     def createNewVideo(self, typeVideo):
         exerciseManager = ExerciseManager(self._exerciseCategory,self._exerciseName)
-        exerciseManager.insert_new_video(typeVideo)
-        self._windowVideoChoice = Ui_VideoTraining(self._exerciseCategory, self._exerciseName, typeVideo)
+        res = exerciseManager.insert_new_video(typeVideo)
+        if res != 0:
+            self._windowVideoChoice = Ui_VideoTraining(self._exerciseCategory, self._exerciseName, typeVideo)
+        else:
+            self.error_message = Ui_CameraError()
+
         self.initialize()
 
     def removeVideo(self):

@@ -3,6 +3,7 @@ from os import path
 
 from PyQt5 import QtWidgets, uic, QtMultimedia, QtCore
 
+from Controllers.CameraError import Ui_CameraError
 from Model.ExerciseManager import ExerciseManager
 from Controllers.Results import Ui_Results
 from Controllers.Settings import Ui_settingss
@@ -68,7 +69,10 @@ class Ui(QtWidgets.QMainWindow):
 
     def execute_exercise(self):
         self._currentExercise = ExerciseManager(self.comboBox.currentText(), self.comboBox_2.currentText())
-        self.result = Ui_Results(self._currentExercise.execute_exercise(), self.comboBox.currentText(), self.comboBox_2.currentText())
-
+        res = self._currentExercise.execute_exercise()
+        if(res != 0):
+            self.result = Ui_Results(res, self.comboBox.currentText(), self.comboBox_2.currentText())
+        else:
+            self.error_message = Ui_CameraError()
 
 

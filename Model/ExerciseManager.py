@@ -63,7 +63,9 @@ class ExerciseManager:
         path = "Exercises" + "\\" +  self._type + "\\" + self._name + "\\" + str(type_video) + "\\" + new_video.get_name()
         face_detector = FaceLandmarkDetector('Model/shape_predictor_68_face_landmarks.dat')
         cap = cv2.VideoCapture(0)
-
+        if not(cap.isOpened()):
+            print("Impossibile avviare la camera, controllare che sia accesa!")
+            return 0
         count = 0
         count2 = -1
         percentage1 = 0
@@ -71,6 +73,8 @@ class ExerciseManager:
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
         out = cv2.VideoWriter( path + ".mp4", fourcc, 10.00, (640, 480))
         landmarks_zero = None
+
+
 
         while cap.isOpened():
             rval, frame = cap.read()
@@ -156,6 +160,7 @@ class ExerciseManager:
                 else:
                     self._videos_correct.append(new_video)
                 break
+
         cap.release()
         cv2.destroyAllWindows()
 
@@ -211,6 +216,10 @@ class ExerciseManager:
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
         out = cv2.VideoWriter("Exercises/temp.mp4", fourcc, 10.00, (640, 480))
         landmarks_zero = None
+        if not(cap.isOpened()):
+            print("Impossibile avviare la camera, controllare che sia accesa!")
+            return 0
+
         while cap.isOpened():
             rval, frame = cap.read()
             #frame = imutils.resize(frame, width=680)

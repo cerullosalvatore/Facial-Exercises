@@ -80,7 +80,7 @@ class ExerciseManager:
             rval, frame = cap.read()
             # frame = imutils.resize(frame, width=680)
             if rval == False:
-                break
+                return 0
 
             output = np.zeros((630, 1380, 3), dtype="uint8")
             output[75:555, 370:1010] = frame
@@ -224,7 +224,7 @@ class ExerciseManager:
             rval, frame = cap.read()
             #frame = imutils.resize(frame, width=680)
             if rval == False:
-                break
+                return 0
             frame = cv2.resize(frame, (640, 480), interpolation=cv2.INTER_LINEAR)
             output = np.zeros((630, 1380, 3), dtype="uint8")
             output[75:555, 370:1010] = frame

@@ -62,7 +62,7 @@ class ExerciseManager:
         new_video = VideoFE(name_video)
         path = "Exercises" + "\\" +  self._type + "\\" + self._name + "\\" + str(type_video) + "\\" + new_video.get_name()
         face_detector = FaceLandmarkDetector('Model/shape_predictor_68_face_landmarks.dat')
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
         if not(cap.isOpened()):
             print("Impossibile avviare la camera, controllare che sia accesa!")
             return 0
@@ -206,7 +206,7 @@ class ExerciseManager:
     def execute_exercise(self):
         new_video = VideoFE("nuovo_video")
         face_detector = FaceLandmarkDetector('Model/shape_predictor_68_face_landmarks.dat')
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
         count = 0
         count2 = -1
